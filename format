@@ -13,3 +13,9 @@ print("网站名2：{name}, 地址 {url}".format(**site))
 # 通过列表索引设置参数
 my_list = ['菜鸟教程', 'www.runoob.com']
 print("网站名3：{0[0]}, 地址 {0[1]}".format(my_list))  # "0" 是必须的
+
+
+for i in range(10):
+    print('Accuracy of %5s : %2d %%' % (classes[i], 100 * class_correct[i]
+                                        / class_total[i]))
+
